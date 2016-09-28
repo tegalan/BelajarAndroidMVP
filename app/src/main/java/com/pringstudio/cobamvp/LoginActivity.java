@@ -1,5 +1,6 @@
 package com.pringstudio.cobamvp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -66,6 +67,9 @@ public class LoginActivity extends AppCompatActivity implements ILoginView, View
             Toast.makeText(this,"Login success",Toast.LENGTH_SHORT).show();
             Log.d("onLoginResult","Success");
             iLoginPresenter.clear();
+
+            // Show
+            startActivity(new Intent(this,HomeActivity.class));
         }else{
             Toast.makeText(this,"Login gagal, chek kembali username dan password",Toast.LENGTH_SHORT).show();
             Log.d("onLoginResult","Failed");
