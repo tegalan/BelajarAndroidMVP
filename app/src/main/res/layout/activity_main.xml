@@ -21,7 +21,6 @@
         android:layout_marginRight="32dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        app:layout_constraintHorizontal_bias="0.46"
         android:hint="Username" />
 
     <EditText
@@ -40,7 +39,7 @@
         android:inputType="textPassword" />
 
     <Button
-        android:text="Button"
+        android:text="Login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:id="@+id/btn_login"
