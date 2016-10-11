@@ -1,4 +1,4 @@
-package com.pringstudio.cobamvp;
+package com.pringstudio.cobamvp.view;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -10,9 +10,9 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.pringstudio.cobamvp.R;
 import com.pringstudio.cobamvp.presenter.ILoginPresenter;
 import com.pringstudio.cobamvp.presenter.LoginPresenter;
-import com.pringstudio.cobamvp.view.ILoginView;
 
 public class LoginActivity extends AppCompatActivity implements ILoginView, View.OnClickListener {
 
